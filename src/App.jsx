@@ -1,10 +1,11 @@
-import { ProductList } from "./components"
+import { Cart, ProductList } from "./components"
 
 function App() {
  
   return (
    <div className="container">
     <ProductList />
+    <Cart />
    </div>
   )
 }
